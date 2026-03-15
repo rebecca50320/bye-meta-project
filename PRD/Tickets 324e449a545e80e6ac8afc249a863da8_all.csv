@@ -1,0 +1,25 @@
+﻿Module,Descriptions & Notes,Feature,Priority
+Reflection,"AI/System prompts (What I ate, who I saw).",Reflection Prompts,Backlog
+Reflection,Fixed grid format (vs. horizontal swiping).,4-Photo Grid Layout,v1
+Input,Audio snippets to express mood.,Music of the Week,Backlog
+Reflection,Notification to start the Sunday ritual.,Weekly Reminder,v1
+Input,Automated pull from local phone album.,Photo Auto-Import,MVP
+Input,In-app camera for immediate capture.,Real-time Camera,Backlog
+Input,Quick text entries throughout the week.,Thoughts & Memos,Backlog
+Reflection,Manual selection from the imported pool.,Select 4 Photos,MVP
+Gallery,IG-style archive view.,Calendar Timeline,Backlog
+Sharing,Viewable for friends without the app.,Non-App Email Bridge,Backlog
+Sharing,In-app feed of friends' weekly grids.,Friends Gallery,v1
+Ownership,Diary entries saved on-device only.,Local Storage,v1
+Anti-Addiction,Minimal notifications; high-signal only.,Quiet Interface,v1
+Sharing,Basic broadcast to friend email lists.,Email Subscription,MVP
+Gallery,Scrollable history of your own grids.,Past Weeks Gallery,v1
+Reflection,Long-form text accompanying the grid.,Diary Entry,MVP
+Sharing,Decentralized identity/following.,Nostr Subscription,v1
+Anti-Addiction,Interaction limited to Sunday evenings.,Sunday Window,v1
+Anti-Addiction,"No likes, followers, or comment counts.",No Metrics,v1
+Reflection,Add text directly onto the 4-photo grid.,Caption Editing,v1
+Anti-Addiction,Feed limited to the current week's posts.,No Unlimited Scroll,v1
+Ownership,Full control over content distribution.,User Identity,v1
+Ownership,Accessible even if the central app dies.,Service Independence,v1
+Ownership,Export data to standard formats.,Exportable Files,MVP

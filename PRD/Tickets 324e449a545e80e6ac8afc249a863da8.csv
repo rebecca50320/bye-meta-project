@@ -1,0 +1,6 @@
+﻿Module,Feature,Priority,Descriptions & Notes
+Input,Photo Auto-Import,MVP,Automated pull from local phone album.
+Reflection,Select 4 Photos,MVP,Manual selection from the imported pool.
+Reflection,Diary Entry,MVP,Long-form text accompanying the grid.
+Sharing,Email Subscription,MVP,Basic broadcast to friend email lists.
+Ownership,Exportable Files,MVP,Export data to standard formats.
