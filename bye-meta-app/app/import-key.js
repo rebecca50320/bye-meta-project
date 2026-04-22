@@ -52,7 +52,6 @@ export default function ImportKey() {
         autoCapitalize="none"
         autoCorrect={false}
         secureTextEntry
-        multiline
       />
       <Text style={styles.warning}>
         This replaces your current key. Back up your existing nsec before continuing.

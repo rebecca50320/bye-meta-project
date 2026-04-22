@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Alert, ScrollView, Share } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Alert, ScrollView } from 'react-native';
+import Clipboard from '@react-native-clipboard/clipboard';
 import { Stack, router } from 'expo-router';
 import { useNDKCurrentUser } from '@nostr-dev-kit/ndk-mobile';
 import { exportNsec, deleteIdentity } from '../src/nostr/identity';
@@ -28,7 +29,13 @@ export default function Profile() {
           onPress: async () => {
             const nsec = await exportNsec();
             Alert.alert('Your nsec', nsec, [
-              { text: 'Copy', onPress: () => Share.share({ message: nsec }) },
+              {
+                text: 'Copy to clipboard',
+                onPress: () => {
+                  Clipboard.setString(nsec);
+                  Alert.alert('Copied', 'Paste it somewhere safe and private.');
+                },
+              },
               { text: 'Close' },
             ]);
           },

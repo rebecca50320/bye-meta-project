@@ -57,6 +57,19 @@ export default function NewEntry() {
 
   const handlePublishToNostr = async () => {
     if (!validateInput()) return;
+
+    const confirmed = await new Promise(resolve =>
+      Alert.alert(
+        'Before you share',
+        'Your photos will be stored on a public server (nostrmedia.com) and accessible to anyone with the link. Your caption is only sent to friends you have added.',
+        [
+          { text: 'Cancel', style: 'cancel', onPress: () => resolve(false) },
+          { text: 'Continue', onPress: () => resolve(true) },
+        ]
+      )
+    );
+    if (!confirmed) return;
+
     setIsSaving(true);
     setUploadProgress('Uploading photos…');
     try {

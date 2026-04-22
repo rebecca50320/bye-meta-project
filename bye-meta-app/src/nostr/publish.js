@@ -1,7 +1,7 @@
 import { NDKEvent } from '@nostr-dev-kit/ndk';
 import { getNDK } from './ndk';
 import { uploadPhotos } from './blossom';
-import { saveEntry, updateEntryNostrId } from '../db/store';
+import { saveEntry } from '../db/store';
 
 /**
  * Build a NIP-68 Kind 20 event from 4 uploaded photos + caption.

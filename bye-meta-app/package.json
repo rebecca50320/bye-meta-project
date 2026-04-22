@@ -15,6 +15,7 @@
     "@expo/vector-icons": "^15.0.3",
     "@nostr-dev-kit/ndk-blossom": "^2.0.2",
     "@nostr-dev-kit/ndk-mobile": "^0.8.43",
+    "@react-native-clipboard/clipboard": "^1.16.3",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
     "@react-navigation/native": "^7.1.8",
